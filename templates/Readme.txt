@@ -1,4 +1,5 @@
 
-Template URL: https://bootstrapmade.com/bizland-bootstrap-business-template/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+Re develop by Bhakt raj
+under python flask with sql database
+
+template from bootstrapmade.com
