@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>TFS Ride</title>
+
+  <!-- Favicons -->
+  <link href="{{url_for('static', filename='assets/img/logo.jpg') }} " rel="icon">
+  <link href="{{url_for('static', filename='assets/img/logo.jpg') }} " rel="logo">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet">
+  <!-- Vendor CSS Files -->
+  <link href="{{url_for('static', filename='assets/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+  <link href="{{url_for('static', filename='assets/vendor/aos/aos.css') }} ')" rel="stylesheet">
+  <link href="{{url_for('static', filename='assets/vendor/bootstrap-icons/bootstrap-icons.css') }} " rel="stylesheet">
+  <link href="{{url_for('static', filename='assets/vendor/boxicons/css/boxicons.min.css') }} " rel="stylesheet">
+  <link href="{{url_for('static', filename='assets/vendor/glightbox/css/glightbox.min.css') }} " rel="stylesheet">
+  <link href="{{url_for('static', filename='assets/vendor/swiper/swiper-bundle.min.css') }} " rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="{{url_for('static', filename='assets/css/style.css') }} " rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <h1 class="logo"><a href="index.html"><img src="{{url_for('static', filename='assets/img/logo.jpg') }} " alt=""><span></span></a></h1>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#blog">Blog</a></li>
+          <li><a class="nav-link scrollto" href="#services">Fan</a></li>
+          <li><a class="nav-link scrollto" href="#gallery">Gallery</a></li>
+          <li><a class="nav-link scrollto " href="#portfolio">Product</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+    <div class="container" data-aos="zoom-out" data-aos-delay="100">
+      <h1>Welcome to <span>TFS</span></h1>
+      <h2>When Life Gets Complicated I Ride</h2>
+      <div class="d-flex">
+        <a href="https://www.youtube.com/channel/UCf7f42RKdWUryWpOERo2_lg/featured" class="btn-get-started scrollto">Get Started</a>
+        <a href="https://youtu.be/J8xmblsn3w8" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+      </div>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= Featured Services Section ======= -->
+    <section id="featured-services" class="featured-services">
+      <div class="dream">
+        <h1>Dream</h1>
+      </div>
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+              <div class="icon"><img src="{{url_for('static', filename='/assets/img/bihar.jpg') }} " alt=""></div>
+              <h4 class="title"><a href="">Delhi To Bihar</a></h4>
+              <p class="description">"A special place in the heart for hometown"</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+              <div class="icon"><img src="{{url_for('static', filename='/assets/img/kathmandu.jpg') }}" alt=""></div>
+              <h4 class="title"><a href="">Bihar to kathmandu</a></h4>
+              <p class="description">"Kathmandu's Durbar Square is an unmissable place in the city."</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
+              <div class="icon"><img src="{{url_for('static', filename='/assets/img/leh.jpg') }} " alt=""></div>
+              <h4 class="title"><a href="">Delhi to Ladakh</a></h4>
+              <p class="description">“You’re off to Great Places!
+                Today is your day!
+                Your mountain is waiting,
+                So…get on your way!”</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
+              <div class="icon"><img src="{{url_for('static', filename='assets/img/sing.jpg') }} " alt=""></div>
+              <h4 class="title"><a href="">Delhi to Singapore</a></h4>
+              <p class="description">“Remember that happiness is a way of travel, not a destination."</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Featured Services Section -->
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>About</h2>
+          <h3> <span>Profile</span></h3>
+          <p>Welcome to Rj Kaiser Place</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
+            <img src="{{url_for('static', filename='assets/img/about.jpg') }} " class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="100">
+            <h3>Rj Kaiser</h3>
+            <p class="fst-italic">
+              TFS Ride is a YouTube channel started by Amar Kumar
+
+The channel showcases vlogs related to biking lifestyle, bike reviews, custom motorcycles, store visits & launches, and trips to locations with best interests of riders, primarily on his Suzuki Hayabusa and KTM Duke 390
+            </p>
+            <ul>
+              <li>
+                <i class="bi bi-person-square"></i>
+                <div>
+                  <h5>Rj Kaiser is an avid fan of two-wheelers.</h5>
+                  <p>RJ Kaiser is a wonderful person. He knows how to impress our audience with his skills.</p>
+                </div>
+              </li>
+              <li>
+                <i class="bi bi-journal-text"></i>
+                <div>
+                  <h5>Channel Description</h5>
+                  <p>This channel shows you the riding experience, lifestyle, store visits and bike reviews through vlogging.</p>
+                </div>
+              </li>
+              <li>
+                <i class="bx bx-store-alt"></i>
+                <div>
+                  <h5>Product</h5>
+                  <p>This channel also shows you the best gadgets related to riding. And also you can buy this gadget from here..</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+
+    <!-- ======= blog Section ======= -->
+    <section id="blog" class="blog">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Blog</h2>
+          <h3>Check our <span>Blog Now</span></h3>
+          <p>If you want to become a member of the official fan page then just DM me to review your bike. </p>
+        </div>
+        {% for post in post %}
+        {% set fname = 'assets/img/' + post.imgfile %}
+        <div class="boxblog">
+          <div class="boxblogpic">
+            
+            <img src="{{url_for('static', filename=fname)}}" alt="">
+          </div>
+          <div class="blogp">
+            <h2 class="blogh">{{post.title}}</h2>
+            <p class="blogp2">{{post.content}}
+              </p>
+          </div>
+
+        </div>
+        {% endfor %}
+       
+
+      </div>
+    </section><!-- End  blog Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Fan</h2>
+          <h3>Check our <span>Official Fan</span></h3>
+          <p>If you want to become a member of the official fan page then just DM me to review your bike. </p>
+        </div>
+        <div id="box">
+          <div class="box3">
+            <img src="{{url_for('static', filename='/assets/img/ankitraj.jpg') }} " alt="">
+            <h3>Ankit Raj</h3>
+            <p>IT Student <br> IIT Dwarka ,New Delhi</p>
+          </div>
+          <div class="box3">
+            <img src="{{url_for('static', filename='/assets/img/raj.jpg') }} " alt="">
+            <h3>Rajkumar</h3>
+            <p>Owner of tiwari medical
+              <br> Khora Colony ,Ghaziabad, U.P
+            </p>
+          </div>
+          <div class="box3">
+            <img src="{{url_for('static', filename='/assets/img/aman.jpg') }} " alt="">
+            <h3>Aman Kumar</h3>
+            <p> Entrepreneur <br>
+              Khora Colony ,Ghaziabad, U.P </p>
+          </div>
+        </div>
+
+       
+
+      </div>
+    </section><!-- End Services Section -->
+<section id="gallery" class="gallery" >
+  <div class="container" data-aos="fade-up">
+    <div class="section-title">
+      <h2>Gallery</h2>
+      <h3>Come let's see the <span>Photo</span></h3>
+      <div class="box1">
+        <div class="box4"><a href=""><img src="{{url_for('static', filename='assets/img/pic1.jpg') }} " alt=""></a></div>
+        <div class="box4"><a href=""><img src="{{url_for('static', filename='assets/img/pic2.jpg') }} " alt=""></a></div>
+        <div class="box4"><a href=""><img src="{{url_for('static', filename='assets/img/pic3.jpg') }} " alt=""></a></div>
+        </div>
+        <div class="box5">
+        <div class="box4"><a href=""><img src="{{url_for('static', filename='assets/img/pic4.jpg') }} " alt=""></a></div>
+        <div class="box4"><a href=""><img src="{{url_for('static', filename='assets/img/pic5.jpg') }} " alt=""></a></div>
+        <div class="box4"><a href=""><img src="{{url_for('static', filename='assets/img/pic7.jpg') }} " alt=""></a></div>
+      </div>
+       
+       
+    
+    </div>
+  </div>
+</section>
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Product</h2>
+          <h3>Check our <span>Product</span></h3>
+          <p>This channel also shows you the best gadgets related to riding. And also you can buy this gadget from here..</p>
+        </div>
+        <div class="coming">
+          <h1>Coming Soon</h1>
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+
+   
+<!-- ======= Contact Section ======= -->
+<section id="contact" class="contact">
+  <div class="container" data-aos="fade-up">
+
+    <div class="section-title">
+      <h2>Contact</h2>
+      <h3><span>Contact Us</span></h3>
+      <p></p>
+    </div>
+
+    <div class="row1" data-aos="fade-up" data-aos-delay="100">
+
+      <div class="col-lg-3 col-md-6" >
+        <div class="info-box  mb-4">
+          <i class="bx bx-envelope"></i>
+          <h3>Email Us</h3>
+          <p>ankitbhaktraj@gmail.com</p>
+        </div>
+      </div>
+
+    </div>
+  
+    <div class="row" data-aos="fade-up" data-aos-delay="100">
+
+      <div class="col-lg-6">
+        <form action="/" method='POST' role="form" class="php-email-form">
+          <div class="row">
+            <div class="col form-group">
+              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+            </div>
+            <div class="col form-group">
+              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+          </div>
+          <div class="form-group">
+            <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+          </div>
+          <div class="my-3">
+            <div class="loading">Loading</div>
+            <div class="error-message"></div>
+            <div class="sent-message">Your message has been sent. Thank you!</div>
+          </div>
+          <div class="text-center"><button type="submit">Send Message</button></div>
+        </form>
+      </div>
+
+    </div>
+  
+
+  </div>
+</section><!-- End Contact Section -->
+
+
+
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>TFS Ride<span>.</span></h3>
+            <p>
+              <a href="https://www.youtube.com/channel/UCf7f42RKdWUryWpOERo2_lg/featured">A YouTube Channel</a> <br>
+              <strong>Email:</strong> ankitbhaktraj@gmail.com<br>
+            </p>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#about">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#services">Fan</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#portfolio">Product</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Social Networks</h4>
+            <p>Follow us </p>
+            <div class="social-links mt-3">
+              <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+              <a href="https://m.facebook.com/profile.php?id=100002488293856&ref=content_filter" class="facebook"><i class="bx bxl-facebook"></i></a>
+              <a href="https://www.instagram.com/tfs_ride/?utm_medium=copy_link" class="instagram"><i class="bx bxl-instagram"></i></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container py-4">
+      <div class="copyright">
+        <a href="#">&copy; Copyright <strong><span>ABR</span></strong>. All Rights Reserved </a>
+        
+      </div>
+      
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="{{url_for('static', filename='assets/vendor/aos/aos.js') }} "></script>
+  <script src="{{url_for('static', filename='assets/vendor/bootstrap/js/bootstrap.bundle.min.js') }} "></script>
+  <script src="{{url_for('static', filename='assets/vendor/glightbox/js/glightbox.min.js') }} "></script>
+  <script src="{{url_for('static', filename='assets/vendor/isotope-layout/isotope.pkgd.min.js') }} "></script>
+  <script src="{{url_for('static', filename='assets/vendor/php-email-form/validate.js') }} "></script>
+  <script src="{{url_for('static', filename='assets/vendor/purecounter/purecounter.js') }} "></script>
+  <script src="{{url_for('static', filename='assets/vendor/swiper/swiper-bundle.min.js') }} "></script>
+  <script src="{{url_for('static', filename='assets/vendor/waypoints/noframework.waypoints.js') }} "></script>
+
+  <!-- Template Main JS File -->
+  <script src="{{url_for('static', filename='assets/js/main.js') }} "></script>
+
+</body>
+
+</html>
